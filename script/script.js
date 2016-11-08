@@ -51,7 +51,7 @@ function close_shot()
 }
 
 // get all screwnshot
-var all_shot = doc.getElementsByClassName('js-shot');
+var all_shot = doc.getElementsByClassName('.js-shot');
 
 for(var i = 0, k = all_shot.length; i < k; i++)
 {

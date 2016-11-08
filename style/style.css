@@ -164,11 +164,6 @@ li {
     color: #2d524e;
 }
 
-.screenshots,
-.rule {
-    
-}
-
 .project-title {
     margin-bottom: 15px;
 }
@@ -252,6 +247,7 @@ li {
     width: 100%;
     border: solid 1px grey;
     background-size: cover;
+    background-position: center;
 }
 
 body.dis:before {
