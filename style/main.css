@@ -576,28 +576,34 @@ li {
         padding: 10px 20px;
     }
     
+    .header-logo {
+        height: 50px;
+        width: 100px;
+    }
+    
     .description {
         padding: 100px;
     }
     
-    .job-details {
+    .portfolio-details {
         padding: 0 70px;
     }
     
-    .job-details-item {
+    .portfolio-details-item {
         padding: 65px 0;
         margin: 0;
         width: 100%;
+        border-left: none;
         border-bottom: solid 1px #413534;
     }
     
-    .job-details-item:last-child { 
+    .portfolio-details-item:last-child { 
         border-left: none;
         border-bottom: none;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     
     #main-menu {
         position: absolute;
@@ -646,7 +652,7 @@ li {
     }
     
     .button-down {
-        margin-top: 130px;
+        margin-top: 50px;
     }
     
     .description {
@@ -662,7 +668,7 @@ li {
         margin-top: 25px;
     }
     
-    .job-details {
+    .portfolio-details {
         padding: 0 20px;
     }
     

@@ -111,7 +111,7 @@ function mobile_version()
 {
     
     // check resolution for the mobile's version
-    if($(window).width() <= 480)
+    if($(window).width() <= 600)
     { 
         $(".menu-js").css("display", "none");
         
@@ -125,7 +125,7 @@ function mobile_version()
         
         
     }
-    else if($(window).width() > 480 )
+    else if($(window).width() > 600 )
     {
         // icon is exist
         if($("div").is("#icon_menu"))
