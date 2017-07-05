@@ -26,7 +26,7 @@ li {
     border: solid 1px #fff;
     background: transparent;
     color: #fff;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .button:hover {
@@ -45,7 +45,7 @@ li {
     width: 100%;
     padding: 25px 75px 20px;
     background: rgba( 0, 0, 0, .7);
-    font: 600 1.125em "Source Sans Pro"; 
+    font: 600 1.125em "Source Sans Pro";
     z-index: 999;
 }
 
@@ -60,7 +60,7 @@ li {
     text-align: center;
 }
 
-.main-menu-item a {   
+.main-menu-item a {
     padding: 5px 0;
     border-top: solid 1px #000;
     border-bottom: solid 1px #000;
@@ -76,7 +76,7 @@ li {
 }
 
 .main-menu-item .active {
-    color: #ff7a7a; 
+    color: #ff7a7a;
 }
 
 /* main */
@@ -155,7 +155,7 @@ li {
 }
 
 .skills {
-    
+
 }
 
 .title-about,
@@ -207,12 +207,12 @@ li {
     max-width: 600px;
 }
 
-.content-education li { 
+.content-education li {
     width: 50%;
     text-align: left;
 }
 
-.content-education li:first-child { 
+.content-education li:first-child {
     width: 100%;
     padding: 5px;
     border-bottom: solid 1px #fff;
@@ -220,7 +220,7 @@ li {
     font-weight: bold;
 }
 
-.content-education li:last-child { 
+.content-education li:last-child {
     font-size: 1.1em;
     text-align: right;
 }
@@ -306,7 +306,7 @@ li {
     display: inline-block;
     width: 49%;
     padding: 0 35px 35px 70px;
-    margin-top: 100px; 
+    margin-top: 100px;
     border-left: solid 1px #413534;
 }
 
@@ -337,6 +337,11 @@ li {
 
 .slider3 .slider-img {
     background: url("../image/volvo/slide-1.jpg") no-repeat;
+    background-size: cover;
+}
+
+.slider4 .slider-img {
+    background: url("../image/wor/slide-1.jpeg") no-repeat;
     background-size: cover;
 }
 
@@ -494,8 +499,8 @@ li {
     content: "";
     top: 12px;
     left: -10px;
-    border: 5px solid transparent; 
-    border-right: 5px solid #d32e36; 
+    border: 5px solid transparent;
+    border-right: 5px solid #d32e36;
 }
 
 .comment-contact-me {
@@ -550,7 +555,7 @@ li {
     justify-content: space-between;
     align-items: center;
 }
-    
+
 .social-icon {
     position: relative;
     width: 40px;
@@ -570,25 +575,25 @@ li {
     background: url("../image/sprite.png") -143px  50% no-repeat;
 }
 
-@media (max-width: 720px) { 
-    
+@media (max-width: 720px) {
+
     #header {
         padding: 10px 20px;
     }
-    
+
     .header-logo {
         height: 50px;
         width: 100px;
     }
-    
+
     .description {
         padding: 100px;
     }
-    
+
     .portfolio-details {
         padding: 0 70px;
     }
-    
+
     .portfolio-details-item {
         padding: 65px 0;
         margin: 0;
@@ -596,15 +601,15 @@ li {
         border-left: none;
         border-bottom: solid 1px #413534;
     }
-    
-    .portfolio-details-item:last-child { 
+
+    .portfolio-details-item:last-child {
         border-left: none;
         border-bottom: none;
     }
 }
 
 @media (max-width: 600px) {
-    
+
     #main-menu {
         position: absolute;
         top: 50px;
@@ -613,22 +618,22 @@ li {
         width: 100%;
         background: rgba(37, 37, 37, 0.95);
     }
-    
+
     #main-menu ul {
         border-top: solid 1px #fff;
         border-bottom: solid 1px #fff;
     }
-    
+
     .main-menu-item {
         width: 100%;
         padding: 20px 0;
         border-bottom: solid 1px #413534;
     }
-    
+
     .main-menu-item:last-child {
         border-bottom: none;
     }
-    
+
     #icon_menu {
         position: absolute;
         top: 17px;
@@ -638,73 +643,73 @@ li {
         background: url("../image/sprite.png") -325px 50% no-repeat;
         cursor: pointer;
     }
-    
+
     #icon_menu.show_icon {
         background: url("../image/sprite.png") -350px 50% no-repeat;
     }
-    
+
     .main-logo {
         width: 210px;
     }
-    
+
     .title-presentation {
         font-size: 20px;
     }
-    
+
     .button-down {
         margin-top: 50px;
     }
-    
+
     .description {
         padding: 190px 0;
     }
-    
+
     .job {
         padding: 195px 20px 125px;
     }
-    
+
     .job-button {
         width: 100%;
         margin-top: 25px;
     }
-    
+
     .portfolio-details {
         padding: 0 20px;
     }
-    
+
     .contact-us {
         padding-top: 240px;
     }
-    
+
     .form-contact-us {
         max-width: 280px;
         margin-bottom: 45px;
     }
-    
+
     .button-contact-us {
         width: 100%;
         margin-top: 25px;
         text-align: center;
     }
-    
+
     #footer {
         padding: 20px;
     }
-    
+
     .copyright {
         font-size: 16px;
     }
-    
+
     .title-social-links {
         display: none;
     }
-    
+
     .social-icon {
         height: 30px;
         width: 30px;
         margin-left: 15px;
     }
-    
+
     .social-icon-github {
         margin-left: 0;
         background: url("../image/sprite.png") -215px  50% no-repeat;
