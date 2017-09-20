@@ -571,6 +571,10 @@ li {
     background: url("../image/sprite.png") -100px  50% no-repeat;
 }
 
+.social-icon-fb {
+    background: url("../image/sprite.png") -370px  50% no-repeat;
+}
+
 .social-icon-in {
     background: url("../image/sprite.png") -143px  50% no-repeat;
 }
@@ -692,6 +696,10 @@ li {
         text-align: center;
     }
 
+    .contact-me {
+        padding: 150px 20px;
+    }
+
     #footer {
         padding: 20px;
     }
@@ -717,6 +725,10 @@ li {
 
     .social-icon-vk {
         background: url("../image/sprite.png") -250px  50% no-repeat;
+    }
+
+    .social-icon-fb {
+        background: url("../image/sprite.png") -413px  50% no-repeat;
     }
 
     .social-icon-in {
